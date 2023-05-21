@@ -11,6 +11,10 @@ to the standard output.
 
 	$ slack-scraper.py --token $SLACK_API_TOKEN --dcookie $SLACK_API_DCOOKIE --days 31 <channel_name>
 
+It allows downloading all the user profiles, example:
+
+        $ slack-scraper.py --token $SLACK_API_TOKEN --dcookie $SLACK_API_DCOOKIE --mode users
+
 
 About Slack Tokens
 ------------------
